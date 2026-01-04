@@ -189,6 +189,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  scrollbar-width: none;
+  -ms-overflow-style:none;
+}
+.chat-body::-webkit-scrollbar {
+  display: none;
 }
 
 .message {
